@@ -37,8 +37,9 @@ Methodology
    - Train-Test Split: Data divided into 80% training and 20% testing sets to evaluate generalization performance.
    - Polynomial Feature Generation: Extended the feature set to include interaction terms and squared terms (degree=2) to capture non-linear relationships.
    - Feature standardization
-3. **Modeling**: - Linear Regression applied on transformed features.
-- Model was trained on the training data and then used to predict output for both training and test sets.
+3. **Modeling**:
+   - Linear Regression applied on transformed features.
+   - Model was trained on the training data and then used to predict output for both training and test sets.
 5. **Evaluation**:
    - `R² Score` and `Mean Squared Error` for both training and test sets.
    - Scatter plots comparing Actual vs Predicted values.
